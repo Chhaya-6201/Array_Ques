@@ -1,7 +1,4 @@
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
-public class Hello_World {
+public class Frequency_NumArray {
     public static void main(String[] args){
 
     int[] arr = {7, 3, 0, 9, 1, 4, 8,  5, 6, 9, 3, 7, 0, 1, 5, 2, 8, 4, 6, 1, 0,
