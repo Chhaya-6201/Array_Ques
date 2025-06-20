@@ -10,9 +10,9 @@ public class Frequency_NumArray {
 
     public static void count(int[] arr){
        int[] num=new int[10];
-       for(int i=0;i<arr.length;i++){
-           num[arr[i]]+=1;
-       }
+        for (int j : arr) {
+            num[j] += 1;
+        }
        for(int freq:num){
            System.out.print(freq+" ");
        }
